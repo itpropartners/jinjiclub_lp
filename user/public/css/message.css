@@ -1,0 +1,59 @@
+.left_message {
+    position: relative;
+    padding: 10px;
+    clear: both;
+    max-width: 500px;
+    float: left;
+}
+
+.left_balloon {
+    position: relative;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 15px;
+    clear: both;
+    max-width: 500px;
+}
+
+.left_date {
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    clear: both;
+    float: left;
+}
+
+.right_balloon {
+    position: relative;
+    background: #f9f9f9;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 20%;
+    clear: both;
+    max-width: 500px;
+    float: right;
+}
+
+.right_date {
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    clear: both;
+    float: right;
+}
+
+.new-message-input{
+    background-color: #f5f5f5;
+}
+
+.list-group-item:first-child{
+    border-top: none;
+}
+
+.list-group-item.active{
+    z-index: 2;
+    color: #495057;
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+}

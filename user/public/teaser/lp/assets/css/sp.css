@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+.sp {
+  display: block;
+}
+
+.pc {
+  display: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.inner {
+  max-width: 90%;
+}
+
+.inner_span {
+  font-size: 5vw;
+}
+
+#header {
+  padding: 0 0 10%;
+}
+
+#header h1 {
+  padding: 10px 0;
+}
+
+#header h1 img {
+  height: 60px;
+}
+
+.mv {
+  padding: 10% 0;
+}
+
+.mv p span {
+  display: block;
+  width: 100%;
+  padding: 3% 0;
+  font-size: 4vw;
+}
+
+.mv p {
+  font-size: 4vw;
+  margin: 0 0 5%;
+}
+
+.mv p strong {
+  font-size: 12vw;
+}
+
+.contact_btn a {
+  padding: 5vw 12vw;
+  font-size: 5vw;
+  border-radius: 30vw;
+  -webkit-box-shadow: 0px 0px 3vw 0px rgba(147,86,87,1);
+  -moz-box-shadow: 0px 0px 3vw 0px rgba(147,86,87,1);
+  box-shadow: 0px 0px 3vw 0px rgba(147,86,87,1);
+}
+
+section {
+  padding: 10% 0;
+}
+
+section h2 {
+  background-size: 100%;
+  font-size: 5vw;
+  padding: 3% 0;
+  margin: 0 0 8%;
+}
+
+.about p {
+  font-size: 4vw;
+  margin: -3vw 0 5%;
+}
+
+.about dl dt {
+  margin: 8% 0;
+  font-size: 5vw;
+}
+
+.about dl dd {
+  font-size: 4vw;
+  padding: 0;
+}
+
+.works ul li {
+  float: none;
+  width: 100%;
+  margin: 0 0 5%;
+}
+
+.works ul li:nth-child(2n) {
+  float: none;
+}
+
+.works ul li dl dt {
+  font-size: 5vw;
+  padding: 1% 0 5%;
+}
+
+.works ul li dl dd {
+  font-size: 4vw;
+  padding: 5% 0 0;
+}
+
+.works ul li p {
+  height: auto;
+  font-size: 3.4vw;
+  padding: 5%;
+}
+
+.works ul li figure {
+  height: auto;
+  line-height: 1;
+  margin: 8% 0 0;
+}
+
+.people ul li {
+  display: block;
+  padding: 0 0 5%;
+  margin: 0 0 5%;
+}
+
+.people ul li figure {
+  text-align: center;
+  margin: 0 0 5%;
+}
+
+.people ul li figure img {
+  height: 50vw;
+}
+
+.people ul li dl {
+  padding: 0;
+  text-align: center;
+}
+
+.people ul li dl dt {
+  font-size: 5vw;
+}
+
+.people ul li dl dd {
+  font-size: 4vw;
+  margin: 3% 0 0;
+}
+
+.support ul li {
+  width: 40vw;
+  margin: 0 1% 9%;
+}
+
+.support ul li p {
+  font-size: 3.4vw;
+  margin: 5% 0 0;
+}
+
+.support ul li p strong {
+  font-size: 5vw;
+  margin: 3% 0 0;
+}
+
+.flow ol li {
+  display: block;
+  margin: 0 0 8%;
+}
+
+.flow ol li dl dt {
+  font-size: 5vw;
+  padding: 3% 20vw;
+}
+
+.flow ol li dl dd figure {
+  margin: 8% 0;
+}
+
+.flow ol li dl dd figure img {
+  height: 50vw;
+}
+
+.flow ol li dl dd p {
+  height: auto;
+  font-size: 5vw;
+}
+
+.cv {
+  padding: 10% 0;
+}
+
+.cv .cv_inner {
+  padding: 10% 0;
+}
+
+.cv p {
+  font-size: 6vw;
+}
+
+.cv p strong {
+  font-size: 9vw;
+}
+
+.cv p span {
+  font-size: 9vw;
+}

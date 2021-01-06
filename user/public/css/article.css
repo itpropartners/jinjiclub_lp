@@ -1,0 +1,70 @@
+.article-list-header .search-result {
+  display: inline;
+  line-height: 30px;
+}
+.search-result .total {
+  font-size:22px;
+  font-weight: 600;
+}
+.article-list-header .search-order a {
+  display: inline;
+  line-height: 30px;
+  text-decoration: none;
+  color: var(--secondary);
+  cursor: pointer;
+}
+.article-list-header .search-order a.active {
+  font-weight: 600;
+  color: var(--primary);
+}
+hr.article-list-separator {
+  margin: 1rem 0;
+}
+
+/* listitem-card */
+.listitem-card {
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+/* thumbnail */
+.listitem-card-thumbnail {
+  overflow: hidden;
+  position: relative;
+}
+.listitem-card-thumbnail img {
+  height: 240px;
+  position: relative;
+  transition: transform 0.4s linear;
+  background-position: cover cover;
+  background-size:cover;
+}
+.listitem-card-thumbnail:hover img {
+  transform:scale(1.05);
+  transform-origin:center;
+}
+
+/* content */
+.listitem-card .listitem-card-content {
+  padding: 1rem 0;
+  /* position: relative; */
+  /* height: 280px; */
+}
+
+/* title */
+.listitem-card h2.title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* tags */
+.listitem-card-tags {
+  margin-bottom: 1rem;
+}
+
+.listitem-card-content-bottom .project-company {
+  /* background-size:cover; */
+  /* position: absolute; */
+  bottom: 18px;
+}

@@ -1,0 +1,1 @@
+$(function(){var o=$(window),a=$("nav").clone().addClass("clone-nav").appendTo("body"),n="is-show";o.on("load scroll",function(){var o=$(this).scrollTop();o>700?a.addClass(n):a.removeClass(n)})});

@@ -1,0 +1,33 @@
+
+.mypage-menu .list-group-item {
+  padding: 0;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.mypage-menu .list-group-item a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+.mypage-menu .list-group-item.active {
+  /* border: 1px solid rgba(0, 0, 0, 0.125); */
+  /* border: none; */
+  background-color: #FAFAFA;
+  /* color: unset; */
+}
+
+.mypage-menu .list-group-item.active a {
+  border-left: solid 5px #5691C2;
+  display: block;
+}
+
+.mypage-menu .list-group-item:first-child {
+  border-radius: unset
+}
+
+.mypage-menu .list-group-item:last-child {
+  border-radius: unset
+}

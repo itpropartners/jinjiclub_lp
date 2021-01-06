@@ -1,0 +1,51 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.card_auth {
+  margin-top: 55px;
+}
+
+.auth_title {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+.auth_title_border {
+  border-left: 4px solid #ffee00;
+  padding-left: 8px;
+}
+
+.col-form-label_auth {
+  padding-bottom: 0px;
+  font-size: 0.9em;
+}
+
+.form-control_auth {
+  height: calc(2.0625rem + 2px);
+  padding: 0.8rem 0.75rem;
+  font-size: 0.975rem;
+}
+
+.form-check-label_auth {
+  font-size: 0.9em;
+}
+
+.btn_auth {
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #231916;
+  background-color: #ffee00;
+}
+
+.btn_auth:hover {
+  color: #231916;
+  background-color: #ffff00;
+}
+
+.btn-link_auth {
+  font-size: 0.9em;
+}

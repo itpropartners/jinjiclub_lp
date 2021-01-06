@@ -1,0 +1,87 @@
+nav ul{
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.nav-link >.badge-notify{
+    position:relative;
+    top: -12px;
+    left: -2px;
+}
+.drawer-menu-item >.badge-notify{
+    position:relative;
+    top: -12px;
+    left: 1px;
+}
+.article-updatedat {
+    display: block;
+    font-size: 1.1rem;
+    text-align: right;
+}
+.article-header {
+    padding: 1rem 0;
+}
+.article-tags {
+    margin-bottom: 0.5rem;
+}
+.article-content .section:first-of-type {
+    margin-top: 2rem;
+}
+.article-content .section {
+    margin-bottom: 2.5rem;
+}
+h1.title {
+    font-weight: 600;
+    font-size: 22px;
+}
+h2.title {
+    font-weight: 600;
+    font-size: 20px;
+    border-left: solid 6px #5691C2;
+    padding: 1rem;
+/* box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; */
+}
+h3.title {
+    font-weight: 600;
+    font-size: 20px;
+    background: #5691C2;
+    color: #f7f7f7;
+    padding: 1rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+h4.title {
+    font-weight: 600;
+    font-size: 20px;
+    border-left: solid 6px #5691C2;
+    background: #f7f7f7;
+    padding: 1rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+.latest-project{
+    cursor: pointer;
+}
+.article-side {}
+.article-side-inner{}
+.article-side-form{}
+.tooltip-inner {
+    background-color: #17a2b8;
+}
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: #17a2b8 !important;
+}
+.tooltip.bs-tooltip-left .arrow:before {
+    border-right-color: #17a2b8 !important;
+}
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-right-color: #17a2b8 !important;
+}
+.tooltip.bs-tooltip-top .arrow:before {
+    border-right-color: #17a2b8 !important;
+}
+
+
+/* 小菅　修正 */
+
+.listitem-card-content{
+    overflow-wrap:break-word;
+}

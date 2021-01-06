@@ -1,0 +1,42 @@
+
+// Body
+//$body-bg: #f5f5f5;
+$body-bg: #fff;
+
+// Typography
+$graspy: 'ヒラギノ角ゴ Pro W3', Hiragino Kaku Gothic Pro, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+$font-family-sans-serif: $graspy;
+//$font-size-base: 0.9rem;
+$line-height-base: 1.7;
+
+// Colors
+//$blue: #3490dc;
+//$indigo: #6574cd;
+//$purple: #9561e2;
+//$pink: #f66D9b;
+//$red: #e3342f;
+//$orange: #f6993f;
+//$yellow: #ffed4a;
+//$green: #38c172;
+//$teal: #4dc0b5;
+//$cyan: #6cb2eb;
+//#F5F5F5
+
+$primary: #5691C2;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1000px
+  //xl: 1140px
+) !default;
+
+body {
+ -webkit-font-smoothing: antialiased;
+}
+
+.project .card-img-top {
+  object-fit: cover;
+  height: 280px;
+}
